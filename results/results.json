@@ -1,0 +1,514 @@
+{
+  "mistralai/Voxtral-Mini-3B-2507": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 5.801471475093475,
+        "errors": 481,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 487.11129999999986,
+        "subs": 361,
+        "dels": 54,
+        "ins": 66
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 5.018263283494862,
+        "errors": 5152,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 6478.5797000000275,
+        "subs": 3933,
+        "dels": 522,
+        "ins": 697
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 9.832047919195084,
+        "errors": 12557,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 6820.769799999997,
+        "subs": 9733,
+        "dels": 998,
+        "ins": 1826
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 14.05466350452937,
+        "errors": 3615,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 1385.4701000000023,
+        "subs": 1466,
+        "dels": 1306,
+        "ins": 843
+      }
+    },
+    "avg_wer": 8.676611545578199,
+    "pooled_wer": 8.247223819177584,
+    "rtfx": 7.488530217337106,
+    "run": {
+      "model": "mistralai/Voxtral-Mini-3B-2507",
+      "backend": "voxtral",
+      "settings": {
+        "language": "nl",
+        "mode": "transcription request",
+        "decoding": "greedy",
+        "dtype": "torch.bfloat16"
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "transformers": "5.19.0"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "nvidia/canary-1b-v2": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 6.042696900253286,
+        "errors": 501,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 229.8000000000002,
+        "subs": 364,
+        "dels": 64,
+        "ins": 73
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 4.3783178298348995,
+        "errors": 4495,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 3407.2779,
+        "subs": 3426,
+        "dels": 527,
+        "ins": 542
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 9.771757428649728,
+        "errors": 12480,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 2958.1107000000075,
+        "subs": 9730,
+        "dels": 1454,
+        "ins": 1296
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 11.204852066404882,
+        "errors": 2882,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 651.3889000000004,
+        "subs": 1442,
+        "dels": 806,
+        "ins": 634
+      }
+    },
+    "avg_wer": 7.849406056285699,
+    "pooled_wer": 7.699930406366304,
+    "rtfx": 15.678499677951505,
+    "run": {
+      "model": "nvidia/canary-1b-v2",
+      "backend": "nemo",
+      "settings": {
+        "decoding": "model default",
+        "source_lang": "nl",
+        "target_lang": "nl"
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "nemo_toolkit": "3.0.0"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "theaifactorybv/murmel-flash-l-v5": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 7.767458690145941,
+        "errors": 644,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 119.26999999999998,
+        "subs": 449,
+        "dels": 85,
+        "ins": 110
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 3.6760337018458094,
+        "errors": 3774,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 1794.842299999999,
+        "subs": 2787,
+        "dels": 529,
+        "ins": 458
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 7.522217437262656,
+        "errors": 9607,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 1525.106099999996,
+        "subs": 7689,
+        "dels": 1205,
+        "ins": 713
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 9.408654406904864,
+        "errors": 2420,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 308.1349999999994,
+        "subs": 1138,
+        "dels": 828,
+        "ins": 454
+      }
+    },
+    "avg_wer": 7.093591059039818,
+    "pooled_wer": 6.219931011528336,
+    "rtfx": 30.318854634847337,
+    "run": {
+      "model": "theaifactorybv/murmel-flash-l-v5",
+      "backend": "murmel",
+      "settings": {
+        "mode": "beam",
+        "beam": 4,
+        "language_model": null
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "murmel_flash": "4.1.0rc1"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "theaifactorybv/murmel-flash-m-v5": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 9.673139548908456,
+        "errors": 802,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 89.89869999999996,
+        "subs": 575,
+        "dels": 100,
+        "ins": 127
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 5.120537671066089,
+        "errors": 5257,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 1373.151100000005,
+        "subs": 3920,
+        "dels": 635,
+        "ins": 702
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 9.349723994832242,
+        "errors": 11941,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 1145.7660000000003,
+        "subs": 9523,
+        "dels": 1408,
+        "ins": 1010
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 10.641110376734964,
+        "errors": 2737,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 231.94310000000027,
+        "subs": 1290,
+        "dels": 963,
+        "ins": 484
+      }
+    },
+    "avg_wer": 8.696127897885438,
+    "pooled_wer": 7.843278162728071,
+    "rtfx": 39.99475738683791,
+    "run": {
+      "model": "theaifactorybv/murmel-flash-m-v5",
+      "backend": "murmel",
+      "settings": {
+        "mode": "beam",
+        "beam": 4,
+        "language_model": null
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "murmel_flash": "4.1.0rc1"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "nvidia/parakeet-tdt-0.6b-v3": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 7.912193945241828,
+        "errors": 656,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 26.988599999999995,
+        "subs": 487,
+        "dels": 85,
+        "ins": 84
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 4.898456143768567,
+        "errors": 5029,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 776.6778999999927,
+        "subs": 3938,
+        "dels": 573,
+        "ins": 518
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 11.073092432368945,
+        "errors": 14142,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 241.56950000000037,
+        "subs": 11291,
+        "dels": 1593,
+        "ins": 1258
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 11.508106216710082,
+        "errors": 2960,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 82.28039999999996,
+        "subs": 1491,
+        "dels": 858,
+        "ins": 611
+      }
+    },
+    "avg_wer": 8.847962184522355,
+    "pooled_wer": 8.61864201639989,
+    "rtfx": 100.76612898934461,
+    "run": {
+      "model": "nvidia/parakeet-tdt-0.6b-v3",
+      "backend": "nemo",
+      "settings": {
+        "decoding": "model default"
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "nemo_toolkit": "3.0.0"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "openai/whisper-large-v3": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 5.560246049933663,
+        "errors": 461,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 464.9399,
+        "subs": 335,
+        "dels": 47,
+        "ins": 79
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 4.226367311157649,
+        "errors": 4339,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 6217.646400000007,
+        "subs": 3236,
+        "dels": 484,
+        "ins": 619
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 9.817954038288375,
+        "errors": 12539,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 6136.285600000008,
+        "subs": 10515,
+        "dels": 1027,
+        "ins": 997
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 23.05509117063878,
+        "errors": 5930,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 1249.0031000000001,
+        "subs": 1456,
+        "dels": 3739,
+        "ins": 735
+      }
+    },
+    "avg_wer": 10.664914642504616,
+    "pooled_wer": 8.80094707858029,
+    "rtfx": 8.076234896883902,
+    "run": {
+      "model": "openai/whisper-large-v3",
+      "backend": "whisper",
+      "settings": {
+        "language": "nl",
+        "task": "transcribe",
+        "num_beams": 1,
+        "dtype": "torch.float16"
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "transformers": "5.19.0"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  },
+  "openai/whisper-large-v3-turbo": {
+    "sets": {
+      "fleurs": {
+        "clips": 364,
+        "wer": 6.030635628995296,
+        "errors": 500,
+        "words": 8291,
+        "audio_s": 3461.699999999999,
+        "compute_s": 98.2786,
+        "subs": 366,
+        "dels": 50,
+        "ins": 84
+      },
+      "common_voice": {
+        "clips": 11266,
+        "wer": 5.818925631909609,
+        "errors": 5974,
+        "words": 102665,
+        "audio_s": 54710.18000000079,
+        "compute_s": 1488.0235999999977,
+        "subs": 4592,
+        "dels": 626,
+        "ins": 756
+      },
+      "mls": {
+        "clips": 3075,
+        "wer": 9.596366910699604,
+        "errors": 12256,
+        "words": 127715,
+        "audio_s": 45937.99999999998,
+        "compute_s": 1232.9684000000004,
+        "subs": 9640,
+        "dels": 1246,
+        "ins": 1370
+      },
+      "voxpopuli": {
+        "clips": 1137,
+        "wer": 28.38147816958905,
+        "errors": 7300,
+        "words": 25721,
+        "audio_s": 9505.582999999999,
+        "compute_s": 259.6396,
+        "subs": 1615,
+        "dels": 4600,
+        "ins": 1085
+      }
+    },
+    "avg_wer": 12.456851585298391,
+    "pooled_wer": 9.845229810281703,
+    "rtfx": 36.901194130313,
+    "run": {
+      "model": "openai/whisper-large-v3-turbo",
+      "backend": "whisper",
+      "settings": {
+        "language": "nl",
+        "task": "transcribe",
+        "num_beams": 1,
+        "dtype": "torch.float16"
+      },
+      "hardware": {
+        "python": "3.11.16",
+        "machine": "x86_64",
+        "cpu": "x86_64",
+        "torch": "2.14.1+cu130",
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "cuda": "13.0"
+      },
+      "versions": {
+        "transformers": "5.19.0"
+      },
+      "date": "2026-10-09",
+      "max_clips": 0
+    }
+  }
+}

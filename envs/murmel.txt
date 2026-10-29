@@ -1,0 +1,2 @@
+# the package under test; MURMEL_PACKAGE overrides this line (a local checkout or another git ref)
+murmel-flash @ git+https://github.com/The-AI-Factory/murmel-flash-dutch-stt

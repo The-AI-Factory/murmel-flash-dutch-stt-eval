@@ -1,0 +1,7 @@
+# backend   model                                      params (millions; for the size plot)
+murmel      theaifactorybv/murmel-flash-m-v5   128
+whisper     openai/whisper-large-v3                    1550
+whisper     openai/whisper-large-v3-turbo              809
+nemo        nvidia/parakeet-tdt-0.6b-v3                600
+nemo        nvidia/canary-1b-v2                        978
+voxtral     mistralai/Voxtral-Mini-3B-2507             4680

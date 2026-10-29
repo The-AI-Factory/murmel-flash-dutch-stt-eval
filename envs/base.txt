@@ -1,0 +1,7 @@
+numpy
+soundfile
+pyarrow
+huggingface_hub
+num2words
+jiwer
+matplotlib

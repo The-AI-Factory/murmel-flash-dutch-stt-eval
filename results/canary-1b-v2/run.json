@@ -1,0 +1,22 @@
+{
+  "model": "nvidia/canary-1b-v2",
+  "backend": "nemo",
+  "settings": {
+    "decoding": "model default",
+    "source_lang": "nl",
+    "target_lang": "nl"
+  },
+  "hardware": {
+    "python": "3.11.16",
+    "machine": "x86_64",
+    "cpu": "x86_64",
+    "torch": "2.14.1+cu130",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "cuda": "13.0"
+  },
+  "versions": {
+    "nemo_toolkit": "3.0.0"
+  },
+  "date": "2026-10-09",
+  "max_clips": 0
+}

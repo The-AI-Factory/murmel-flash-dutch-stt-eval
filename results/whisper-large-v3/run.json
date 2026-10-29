@@ -1,0 +1,23 @@
+{
+  "model": "openai/whisper-large-v3",
+  "backend": "whisper",
+  "settings": {
+    "language": "nl",
+    "task": "transcribe",
+    "num_beams": 1,
+    "dtype": "torch.float16"
+  },
+  "hardware": {
+    "python": "3.11.16",
+    "machine": "x86_64",
+    "cpu": "x86_64",
+    "torch": "2.14.1+cu130",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "cuda": "13.0"
+  },
+  "versions": {
+    "transformers": "5.19.0"
+  },
+  "date": "2026-10-09",
+  "max_clips": 0
+}
